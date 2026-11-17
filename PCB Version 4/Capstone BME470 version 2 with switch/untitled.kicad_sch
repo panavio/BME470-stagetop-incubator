@@ -1,0 +1,7660 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8106f5bc-a51d-417c-9f70-2e6c4b9fc7b2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Adafruit SHT45-eagle-import:3.3V"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.3V Supply"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3V_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:CAP_CERAMIC0603_NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:0603-NO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0603_NO_1_0"
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:CAP_CERAMIC0805-NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:0805-NO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0805-NOOUTLINE_1_0"
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:GND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "GND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:HEADER-1X570MIL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -6.35 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:1X05_ROUND_70"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HEADER-1X570MIL_1_0"
+				(polyline
+					(pts
+						(xy -6.35 7.62) (xy -6.35 -7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -7.62) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy -6.35 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 1.27 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:LED0603_NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:CHIPLED_0603_NOOUTLINE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED0603_NOOUTLINE_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 2.2225) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy -0.9525 2.8575)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 2.2225) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 0.3175 2.8575)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:MOSFET-N_DUAL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:SOT363"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual N-Channel MOSFET\n\nSOT363 (2.0x1.25mm)\n\n• 2N7002PS - 60V, 320mA [Digikey: 568-5984-1-ND]"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOSFET-N_DUAL_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 -0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.508) (xy 3.302 0.254) (xy 4.318 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "G"
+					(at -1.27 -1.905 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D"
+					(at 3.175 3.175 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "S"
+					(at 3.175 -3.81 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MOSFET-N_DUAL_2_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 -0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.508) (xy 3.302 0.254) (xy 4.318 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "G"
+					(at -1.27 -1.905 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D"
+					(at 3.175 3.175 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "S"
+					(at 3.175 -3.81 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:RESISTOR_0603_NOOUT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.2032)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:0603-NO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_0603_NOOUT_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:RESISTOR_4PACK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.2032)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:RESPACK_4X0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor Packs (4 resistors)\n\n4 x 0603\n\n• 10K 1/16W - Digikey: YC164J-10KCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_2_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_3_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_4_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:SHT4X_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at -10.16 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -10.16 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:SHT4X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SHT4X__1_0"
+				(polyline
+					(pts
+						(xy -10.16 10.16) (xy 10.16 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy -10.16 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy -10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy -10.16 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -10.16) (xy 10.16 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy -10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "VDD:\nTemp:"
+					(at -2.54 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+							(thickness 0.2159)
+							(bold yes)
+						)
+						(justify right)
+					)
+				)
+				(text "1.1-3.6V\n-40~~125°C"
+					(at -1.27 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+							(thickness 0.2159)
+							(bold yes)
+						)
+						(justify left)
+					)
+				)
+				(text "SHT4x Temp and\nHumidity Sensor"
+					(at 0 7.62 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+							(thickness 0.2159)
+							(bold yes)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:STEMMA_I2C_QT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CONN"
+				(at -3.81 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:JST_SH4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STEMMA_I2C_QT_1_0"
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy -3.81 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 3.81 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at 0 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STEMMA_I2C_QT_2_0"
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "MT1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STEMMA_I2C_QT_3_0"
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "MT2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:VCC"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:VREG_SOT23-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit SHT45:SOT23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature)."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VREG_SOT23-5_1_0"
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit SHT45-eagle-import:supply1_371_GND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "supply1_371_GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "S"
+		(exclude_from_sim no)
+		(at 158.75 69.85 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "13927b0a-b7f3-4869-9341-94193283b81e")
+	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 153.67 62.23 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f7298e5-9753-4d5a-902e-069a8ae34640")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 148.59 69.85 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ec5a8b6-f473-4e50-90a5-35234195c268")
+	)
+	(text "STEMMA/I2C Headers"
+		(exclude_from_sim no)
+		(at 209.55 74.93 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "937607c0-0ca9-418c-a3b7-ea5288676f9d")
+	)
+	(text "ON LED"
+		(exclude_from_sim no)
+		(at 87.63 74.93 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ab5e577-8970-43d1-9e48-ba05695afa60")
+	)
+	(text "Power supply"
+		(exclude_from_sim no)
+		(at 24.13 74.93 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "acc6454f-df8d-4e7b-8436-99bbf78a2310")
+	)
+	(text "I2C Pullups & Shift"
+		(exclude_from_sim no)
+		(at 110.49 74.93 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc6c3f29-8c55-4a01-bcf9-ee55af266719")
+	)
+	(junction
+		(at 173.99 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15a2fb3a-99d0-491e-afca-301fdb076c62")
+	)
+	(junction
+		(at 181.61 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c93c507-b469-46eb-b619-5e889ef256af")
+	)
+	(junction
+		(at 26.67 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "620858a5-debb-4363-8be0-62439f83c1e3")
+	)
+	(junction
+		(at 222.25 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "758fe545-148a-4f6d-b6bf-ffede82c84b1")
+	)
+	(junction
+		(at 26.67 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2cd41db-06ad-44e1-a84b-35e05131f7d8")
+	)
+	(junction
+		(at 222.25 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc2d0149-76b7-47f3-bcd2-f33936f3aad1")
+	)
+	(junction
+		(at 39.37 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf16484f-8544-4a7f-a46a-1f339395b6b9")
+	)
+	(junction
+		(at 138.43 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d01d2d9b-7fac-4207-a5f4-69ee3949406c")
+	)
+	(junction
+		(at 67.31 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d84d1c32-7829-477d-8a1b-ce002bc0252f")
+	)
+	(junction
+		(at 146.05 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc47e940-cab0-4007-9426-dce79a875f1f")
+	)
+	(no_connect
+		(at 59.69 52.07)
+		(uuid "361a4aa2-3d86-4626-b498-5dd32e8b4395")
+	)
+	(wire
+		(pts
+			(xy 59.69 46.99) (xy 67.31 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "01de019d-cc62-4e65-a0c1-db249d2ada97")
+	)
+	(wire
+		(pts
+			(xy 222.25 39.37) (xy 222.25 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0428a542-1189-49ab-82e8-d3f1030d301f")
+	)
+	(polyline
+		(pts
+			(xy 105.41 77.47) (xy 207.01 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "08d2c87b-acf8-4201-ac1e-b94aa76e811e")
+	)
+	(wire
+		(pts
+			(xy 146.05 57.15) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d4c3079-4429-4c25-9bba-ac0190210966")
+	)
+	(wire
+		(pts
+			(xy 36.83 59.69) (xy 26.67 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c5d0fc6-7cb1-4831-bae2-2e3ec4c4a68c")
+	)
+	(wire
+		(pts
+			(xy 67.31 46.99) (xy 67.31 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "23a3dabb-fa8b-4c45-977c-240d161ae751")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 156.21 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27aa6a50-27d7-49af-acc0-d828e8a25044")
+	)
+	(wire
+		(pts
+			(xy 173.99 54.61) (xy 173.99 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2f2c4d1c-782f-49d0-90af-50482115aa78")
+	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "33ade9d7-21b9-4926-b83a-82caf31b71cf")
+	)
+	(wire
+		(pts
+			(xy 222.25 59.69) (xy 255.27 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34036649-f166-4aa6-b7f2-0d242661b7e3")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "38eb089d-63fa-44dd-a028-cf0a59ed457c")
+	)
+	(wire
+		(pts
+			(xy 30.48 95.25) (xy 30.48 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "46a29659-c7ce-42db-880d-0b8ad96a4b03")
+	)
+	(wire
+		(pts
+			(xy 138.43 67.31) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "46cdfbc1-f025-49b7-853d-a2476d868c8a")
+	)
+	(polyline
+		(pts
+			(xy 105.41 34.29) (xy 105.41 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "46deae65-2868-49de-b6a8-712c2f7334f2")
+	)
+	(wire
+		(pts
+			(xy 26.67 59.69) (xy 26.67 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "46e787a2-b848-4771-86b7-4526a45f7097")
+	)
+	(wire
+		(pts
+			(xy 138.43 41.91) (xy 138.43 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "478ad1da-543c-4532-be58-29d32c1d4ee5")
+	)
+	(wire
+		(pts
+			(xy 181.61 44.45) (xy 181.61 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47d5cd21-874d-45cb-a973-5bdb6c832198")
+	)
+	(polyline
+		(pts
+			(xy 85.09 34.29) (xy 85.09 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4830bce3-c774-44d2-8fa1-70e51d197910")
+	)
+	(wire
+		(pts
+			(xy 45.72 95.25) (xy 30.48 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "48e55864-9892-43d7-88ed-61aa4893482a")
+	)
+	(wire
+		(pts
+			(xy 158.75 57.15) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "519cac19-c0fe-4ce9-959f-aa364826d94a")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5c3d754e-862c-48a9-933b-5a0303703c41")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5d8fa92a-fb8e-4df8-910f-f3d70591d6c4")
+	)
+	(wire
+		(pts
+			(xy 173.99 44.45) (xy 173.99 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e3e6cb6-e532-486a-8aa0-621035bf4f47")
+	)
+	(polyline
+		(pts
+			(xy 207.01 34.29) (xy 207.01 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "63222fe0-57fe-4090-b491-5f9148aa88bc")
+	)
+	(wire
+		(pts
+			(xy 168.91 57.15) (xy 181.61 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64bb029a-bc6d-40ae-aee6-a2fa920b7f07")
+	)
+	(wire
+		(pts
+			(xy 26.67 59.69) (xy 26.67 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6557b783-4b49-4617-a063-5c5ea3da7a2b")
+	)
+	(wire
+		(pts
+			(xy 36.83 52.07) (xy 36.83 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6afc6951-3bfb-47b6-b90a-b8988f60a190")
+	)
+	(wire
+		(pts
+			(xy 39.37 49.53) (xy 39.37 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86ec11e9-1e7f-4ea6-9540-3cdf77340489")
+	)
+	(wire
+		(pts
+			(xy 82.55 99.06) (xy 69.85 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "87510b31-526f-40d9-a73e-f4fa78eae2d0")
+	)
+	(wire
+		(pts
+			(xy 67.31 46.99) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a0f1cdd-615f-4e64-8dfc-6f554c57ee46")
+	)
+	(wire
+		(pts
+			(xy 74.93 93.98) (xy 82.55 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8b64803b-a638-4c85-ae96-77f79876804c")
+	)
+	(wire
+		(pts
+			(xy 95.25 57.15) (xy 95.25 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9017a95a-e68d-4081-af06-9d74137c7622")
+	)
+	(wire
+		(pts
+			(xy 146.05 54.61) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "943d7750-918f-42ec-9e8a-faf737b7fcaa")
+	)
+	(polyline
+		(pts
+			(xy 207.01 77.47) (xy 273.05 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95fd2dfe-fa8f-4150-98d7-6a91adb91a10")
+	)
+	(wire
+		(pts
+			(xy 45.72 102.87) (xy 33.02 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9a37b6e5-9d68-4b5d-9e91-b5d448e2e628")
+	)
+	(wire
+		(pts
+			(xy 181.61 54.61) (xy 181.61 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6af8db2-de15-46ec-950d-4877c6de9c8f")
+	)
+	(wire
+		(pts
+			(xy 39.37 46.99) (xy 26.67 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a8caabe3-06fd-42e5-8fa0-5e6114ff5710")
+	)
+	(wire
+		(pts
+			(xy 173.99 67.31) (xy 196.85 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa3a1081-1916-4be2-96ee-ef7be85a479f")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b37a011b-d0ce-4d04-9a73-0c9d8929c10f")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 67.31 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b6af5cd3-8e23-42f7-af93-efacd3e3f0fe")
+	)
+	(wire
+		(pts
+			(xy 146.05 44.45) (xy 146.05 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b6cc46bb-be09-4e1a-8d99-6c29ebe44fbd")
+	)
+	(wire
+		(pts
+			(xy 39.37 52.07) (xy 36.83 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b6ecf928-ad14-423d-a15f-270ef3bb7b2f")
+	)
+	(wire
+		(pts
+			(xy 45.72 92.71) (xy 38.1 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b96191db-98cd-4c86-ba36-eee1af9ccb1e")
+	)
+	(wire
+		(pts
+			(xy 45.72 97.79) (xy 55.88 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba58d50b-945c-469f-b8a0-1f5781c290f9")
+	)
+	(wire
+		(pts
+			(xy 222.25 41.91) (xy 222.25 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb0072f5-eb6c-47ef-8574-afbe8b51d063")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c9917977-2fa8-4db3-9ab6-e5862cb03e27")
+	)
+	(wire
+		(pts
+			(xy 38.1 92.71) (xy 38.1 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cbb959dc-b524-4ddb-8cd0-989c4c739f82")
+	)
+	(wire
+		(pts
+			(xy 255.27 57.15) (xy 222.25 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d2375926-f5e0-4e1d-8d0c-0e6e444056df")
+	)
+	(wire
+		(pts
+			(xy 158.75 67.31) (xy 173.99 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5a57020-a2fd-4c7f-a6b5-ee852ff37d67")
+	)
+	(polyline
+		(pts
+			(xy 85.09 77.47) (xy 105.41 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d727ec53-e587-44a9-a35c-a5919fa4c3c5")
+	)
+	(wire
+		(pts
+			(xy 181.61 57.15) (xy 196.85 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "daf18e4b-f038-458d-b947-d42cccbc5fff")
+	)
+	(wire
+		(pts
+			(xy 26.67 44.45) (xy 26.67 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de2f3dac-1018-401f-8aa6-4ee1aa15ee0e")
+	)
+	(wire
+		(pts
+			(xy 166.37 52.07) (xy 166.37 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de83dc0f-0bc9-4601-b6d4-d60c62e50f0b")
+	)
+	(wire
+		(pts
+			(xy 222.25 54.61) (xy 255.27 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e1c510fa-9c94-4787-a0c0-89f63a213684")
+	)
+	(polyline
+		(pts
+			(xy 19.05 77.47) (xy 85.09 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e7165da1-1197-41c2-b35f-8f79b8d6b3f9")
+	)
+	(wire
+		(pts
+			(xy 45.72 100.33) (xy 33.02 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ed5e66c1-e005-4a7f-a4a6-9e75a22f35ca")
+	)
+	(wire
+		(pts
+			(xy 252.73 52.07) (xy 222.25 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f7bf6229-82da-41e5-87d2-3501cda3cddb")
+	)
+	(label "SDA"
+		(at 130.81 57.15 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0760c095-6a5f-4426-b7c2-ee87d0878a0d")
+	)
+	(label "SCL"
+		(at 237.49 59.69 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bad606e-c3fe-44be-8487-d9ca8ae11a08")
+	)
+	(label "VCC"
+		(at 237.49 54.61 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "3109ad81-5d92-4402-a5d7-a6bb77ae6f1c")
+	)
+	(label "SDA"
+		(at 33.02 102.87 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d13f02-068a-4111-b76a-5d152f184e04")
+	)
+	(label "SCL"
+		(at 33.02 100.33 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b9b6a1f-6849-4871-bc8a-31badd363521")
+	)
+	(label "SCL_3V"
+		(at 72.39 99.06 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f2ded04-47a6-4488-8255-75eba8efb6e0")
+	)
+	(label "SDA_3V"
+		(at 196.85 57.15 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a02cfd1c-428d-4fa3-bd5d-effc59642e65")
+	)
+	(label "SCL"
+		(at 130.81 67.31 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b233b6c8-e7e2-4d38-ad95-8db4cd4377f8")
+	)
+	(label "GND"
+		(at 237.49 52.07 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdb330e1-f4dd-4f78-80f6-27ced49b5a50")
+	)
+	(label "SDA"
+		(at 237.49 57.15 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc4d66ff-0b67-4761-9148-41997fe3b54d")
+	)
+	(label "SCL_3V"
+		(at 196.85 67.31 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0cfd90b-ec7a-4917-9fcc-48a38cb6d753")
+	)
+	(label "SDA_3V"
+		(at 110.49 99.06 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4c126ae-6a30-49e3-b23a-fc260ee78931")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 33.02 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29d8e0e3-7fef-46ea-affc-48b215146815")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 55.88 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fa294b7-7d7d-49eb-985e-fada1a6aed12")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 33.02 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95fbfead-fba4-4f26-a98f-e99b3c8234cf")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 26.67 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2017639-1da7-45ce-a12b-ec7d5bf1720d")
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:HEADER-1X570MIL")
+		(at 48.26 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09653df3-a47b-4fe8-81b3-9e9a49586cf8")
+		(property "Reference" "JP6"
+			(at 41.91 89.535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X570MIL"
+			(at 41.91 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:1X05_ROUND_70"
+			(at 48.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbdb9de7-464a-42b2-9c8d-63f125746041")
+		)
+		(pin "1"
+			(uuid "815a9616-caef-4a42-a45e-966d8f67b34a")
+		)
+		(pin "5"
+			(uuid "8cbfe97c-2bd5-47f9-8069-6206d8273c33")
+		)
+		(pin "4"
+			(uuid "9004d7cb-69ad-4c7f-b1cd-38b738713ca5")
+		)
+		(pin "3"
+			(uuid "0edf54bd-85d4-4a95-8dd1-174ffa6ac7ba")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "JP7")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "JP6")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "JP8")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:VCC")
+		(at 138.43 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13d1d545-8863-4353-be8c-750bcd849518")
+		(property "Reference" "#P+025"
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 135.89 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47604e54-13e3-46d4-aa63-a3a193fbb924")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#P+026")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#P+025")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#P+027")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#P+028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:3.3V")
+		(at 30.48 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1440453b-b3b9-4bea-bc42-eaae56dce965")
+		(property "Reference" "#U$058"
+			(at 30.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 28.956 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20515059-5786-4f22-8723-c473fcb3a549")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$059")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$058")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$060")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:CAP_CERAMIC0603_NO")
+		(at 77.47 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2475be9e-af21-402a-954c-470c27e2e6ae")
+		(property "Reference" "C27"
+			(at 75.18 53.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 79.77 53.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:0603-NO"
+			(at 77.47 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a34efe8b-a8b0-4213-b1a9-71fa0e6c0b0d")
+		)
+		(pin "1"
+			(uuid "eec1cf71-29cd-42ff-a7c2-ed816f012f40")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:3.3V")
+		(at 74.93 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27e14d2b-58c0-45b6-90b6-68ba5f9e691d")
+		(property "Reference" "#U$074"
+			(at 74.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 76.454 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2263915-b4c2-494b-953d-1a9187a0c58a")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$075")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$074")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$076")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:RESISTOR_4PACK")
+		(at 138.43 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2eae9670-c9d5-4dce-8b4b-730900b4008a")
+		(property "Reference" "R17"
+			(at 140.97 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K Pack"
+			(at 138.43 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:RESPACK_4X0603"
+			(at 138.43 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6bc936d4-6cc7-4164-93fb-c1b2581e4ace")
+		)
+		(pin "1"
+			(uuid "8a9d039f-cb24-4c2b-b21a-09707fcc185f")
+		)
+		(pin "7"
+			(uuid "3825367d-2d11-4461-b8fe-9dba0ed62356")
+		)
+		(pin "8"
+			(uuid "37653969-7ca3-4bbc-a310-78564294a5ea")
+		)
+		(pin "6"
+			(uuid "26b1b6db-eca9-41e8-a749-eae72cde13f3")
+		)
+		(pin "2"
+			(uuid "391bcd41-4ef2-4271-92a5-d2047f3752a1")
+		)
+		(pin "4"
+			(uuid "fa686539-e9e3-4c12-9c4c-ad06bd45c820")
+		)
+		(pin "5"
+			(uuid "56135cbe-0017-4ff4-a5a9-5274d9e36a1a")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:RESISTOR_4PACK")
+		(at 146.05 49.53 270)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36378262-c617-404e-8069-215a9aeafe8a")
+		(property "Reference" "R17"
+			(at 148.59 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K Pack"
+			(at 146.05 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:RESPACK_4X0603"
+			(at 146.05 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "5ef70258-5439-4c7f-9575-cb83a64c3a21")
+		)
+		(pin "2"
+			(uuid "18f49ba0-de54-4bc0-98bb-45ec542cded7")
+		)
+		(pin "1"
+			(uuid "7ccff20e-5dd5-45d8-907f-7dda69ec336d")
+		)
+		(pin "3"
+			(uuid "d5a4b677-c312-4cc7-a92d-949ba8a3e55b")
+		)
+		(pin "5"
+			(uuid "fbe0031b-cfaf-4b98-aeaa-f933978345f1")
+		)
+		(pin "8"
+			(uuid "a60fd9be-5f6e-4716-b1c2-a42c8397199f")
+		)
+		(pin "7"
+			(uuid "d83f931c-c212-4b26-b9e5-8dce6269d557")
+		)
+		(pin "4"
+			(uuid "037c8f5e-ee30-4b24-aae1-a00ac6b0b836")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "R18")
+					(unit 3)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "R17")
+					(unit 3)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "R20")
+					(unit 3)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "R22")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:GND")
+		(at 55.88 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a0e8d99-fffd-41fc-a8a9-0cca3502bf91")
+		(property "Reference" "#U$062"
+			(at 55.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.356 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecea3eeb-2ee5-442a-a03c-783463f6c540")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$063")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$062")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$064")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:VREG_SOT23-5")
+		(at 49.53 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44180e0e-acad-4a63-ba75-30f0f9390ca0")
+		(property "Reference" "U11"
+			(at 41.91 43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "AP2127K-3.3"
+			(at 44.196 56.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:SOT23-5"
+			(at 49.53 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d8b4a14-c3da-4ece-b423-3aaa8ba820b6")
+		)
+		(pin "2"
+			(uuid "3340123b-80e2-4b3b-bfda-0ca36b6b326f")
+		)
+		(pin "4"
+			(uuid "6ddd1d64-cfaa-4582-8df1-d38cb0bc3708")
+		)
+		(pin "5"
+			(uuid "b193b60f-86ef-4923-bab5-e4292bc666bf")
+		)
+		(pin "3"
+			(uuid "1c2db6a5-fada-45f4-8184-2e00340c0bda")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "U12")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:RESISTOR_0603_NOOUT")
+		(at 95.25 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46408fee-ccf6-40ae-a46e-f2103545cabf")
+		(property "Reference" "R15"
+			(at 97.79 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 95.25 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:0603-NO"
+			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a525a28-40ae-497e-8f38-18377b0ee00b")
+		)
+		(pin "2"
+			(uuid "ecf15232-972d-43c9-b7c8-1219c6a1a2f4")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:STEMMA_I2C_QT")
+		(at 222.25 41.91 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4acc112a-b1a8-4011-9d10-72ef205de3a6")
+		(property "Reference" "CONN8"
+			(at 218.44 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 218.44 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:JST_SH4"
+			(at 222.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "221b9abf-33ab-4e7b-af2c-3072dbc0e9e3")
+		)
+		(pin "MT1"
+			(uuid "cbf12acb-7906-4c3c-8152-16a70b2d30ef")
+		)
+		(pin "2"
+			(uuid "2ce39e28-0953-4354-a270-3ea7dd809cef")
+		)
+		(pin "3"
+			(uuid "39fb7f82-a242-48bf-9418-3ce0753f83aa")
+		)
+		(pin "4"
+			(uuid "339ec197-edcc-4ff2-95a2-1f5fcdc681be")
+		)
+		(pin "MT2"
+			(uuid "24dc61de-178d-49c1-b193-98c68b469b0a")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "CONN9")
+					(unit 2)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "CONN8")
+					(unit 2)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "CONN10")
+					(unit 2)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "CONN11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:RESISTOR_4PACK")
+		(at 173.99 49.53 90)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d0d44f2-53aa-4275-a5b5-ec0ab98921dd")
+		(property "Reference" "R17"
+			(at 171.45 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K Pack"
+			(at 173.99 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:RESPACK_4X0603"
+			(at 173.99 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bdf1973-2830-4567-bc47-42e20d223a4d")
+		)
+		(pin "8"
+			(uuid "3028592a-3635-4122-b843-9c8ce478f5e5")
+		)
+		(pin "2"
+			(uuid "fe45406a-5a9c-480f-993b-a215d93499a2")
+		)
+		(pin "7"
+			(uuid "38474894-f0c8-4131-a852-1fca76f2a09e")
+		)
+		(pin "6"
+			(uuid "730244fc-4a4e-41d6-8da3-ea932c2edae0")
+		)
+		(pin "4"
+			(uuid "6ae78731-076c-4f8e-80ff-2faef859e125")
+		)
+		(pin "5"
+			(uuid "4258cbc2-5982-4190-8cba-ccbe68ad8f6a")
+		)
+		(pin "3"
+			(uuid "5f176a66-2596-4200-b9d9-e67fb3e85677")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "R18")
+					(unit 2)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "R17")
+					(unit 2)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "R20")
+					(unit 2)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "R22")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:GND")
+		(at 77.47 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51cd6248-259c-44e0-b206-50dc8dc5e4d6")
+		(property "Reference" "#U$082"
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 75.946 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "915d76b8-e500-4a70-ac6b-0d6886f8b57d")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$083")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$082")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$084")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:3.3V")
+		(at 156.21 39.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57214c15-fd57-4e97-85a6-e484ab52dc49")
+		(property "Reference" "#U$091"
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 157.734 38.354 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "688498ff-cf81-4f67-b359-e4ebce8654c0")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$092")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$091")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$093")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:LED0603_NOOUTLINE")
+		(at 95.25 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77533a3c-9771-4d16-8e22-bcc724fda9f4")
+		(property "Reference" "D9"
+			(at 99.695 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 92.456 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:CHIPLED_0603_NOOUTLINE"
+			(at 95.25 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C"
+			(uuid "34b0a2e4-23fc-4cd8-9f71-ec67bfaaab9a")
+		)
+		(pin "A"
+			(uuid "7d945122-4720-4ce2-bc08-e247f5ae942c")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:MOSFET-N_DUAL")
+		(at 153.67 64.77 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87737196-ee5c-493d-8e89-e6389c53b73e")
+		(property "Reference" "Q7"
+			(at 153.035 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 154.94 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:SOT363"
+			(at 153.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3ac71c94-44a2-458a-9909-aa67a25b6cc2")
+		)
+		(pin "1"
+			(uuid "0306b265-bdad-4f62-a58e-85913b3ed7f4")
+		)
+		(pin "4"
+			(uuid "82504fd4-f153-4874-9b32-b4dbd8a7d12c")
+		)
+		(pin "6"
+			(uuid "f2172483-82a1-46bd-b32e-37fbb1d81632")
+		)
+		(pin "2"
+			(uuid "16602120-125f-4482-9715-65580312bfc9")
+		)
+		(pin "5"
+			(uuid "4cd07f7c-1636-4909-bca9-16dd74d96534")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:supply1_371_GND")
+		(at 95.25 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "887b1541-90e1-45d8-b62e-564eb57950c3")
+		(property "Reference" "#GND011"
+			(at 95.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0e3a2d0-f69d-4609-bdcf-0742702f2e0b")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#GND012")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#GND011")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#GND013")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:VCC")
+		(at 26.67 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b618e63-39fb-47e6-88ad-204211e32273")
+		(property "Reference" "#P+017"
+			(at 26.67 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 24.13 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d2b5032-8216-427e-b2a2-13bef7bf9fe8")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#P+018")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#P+017")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#P+019")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#P+020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:3.3V")
+		(at 173.99 39.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ff6cee5-ca57-4125-89c6-26f12aec3feb")
+		(property "Reference" "#U$0100"
+			(at 173.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 175.514 38.354 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f82bc90a-6d5f-4adf-abab-d2c7467d53b7")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$0101")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$0100")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$0102")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:GND")
+		(at 67.31 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0c734d4-1fdf-4df8-9111-16633372f5f8")
+		(property "Reference" "#U$070"
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 65.786 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "567ffd3d-ffdd-424a-98bd-e3278fed0f27")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$071")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$070")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$072")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:3.3V")
+		(at 166.37 39.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a68e6bac-6bfb-45e8-8946-2fb229cce0e8")
+		(property "Reference" "#U$095"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 167.894 38.354 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6194b60-b1d9-4ceb-bb72-297bc91c54da")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$096")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$095")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$097")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:3.3V")
+		(at 77.47 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6c41ae3-91f3-4457-af83-930946cf56e3")
+		(property "Reference" "#U$078"
+			(at 77.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 75.946 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34b29a57-eee5-4798-a0bc-32e1510ae068")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$079")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$078")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$080")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:SHT4X_")
+		(at 95.25 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7a96010-541e-42ac-b18e-1aee77578327")
+		(property "Reference" "X5"
+			(at 85.09 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SHT4X_"
+			(at 85.09 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:SHT4X"
+			(at 95.25 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "4afe7a31-da6b-44b4-be91-d5dc02b59b34")
+		)
+		(pin "2"
+			(uuid "15fc7a3a-78d6-4ddd-972b-df07cfdc0c17")
+		)
+		(pin "1"
+			(uuid "11efaf9a-8178-4a6c-93a1-739ada87df3f")
+		)
+		(pin "3"
+			(uuid "ad78f1ab-9819-4ecf-9574-b21d0c293143")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "X6")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "X5")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "X7")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "X8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:RESISTOR_4PACK")
+		(at 181.61 49.53 90)
+		(mirror x)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9e2a899-85a7-491d-9f8f-0f31de3d75d6")
+		(property "Reference" "R17"
+			(at 179.07 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K Pack"
+			(at 181.61 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:RESPACK_4X0603"
+			(at 181.61 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "fc710e46-4629-4e56-ba98-03d2fb5fd373")
+		)
+		(pin "7"
+			(uuid "86430f34-1cc2-422c-81cb-9c02292ebc96")
+		)
+		(pin "5"
+			(uuid "b4f211a5-c111-49cd-b045-68b90ac7b1d6")
+		)
+		(pin "2"
+			(uuid "507e7cfb-06c8-4e6f-b654-18d4b92b26c7")
+		)
+		(pin "3"
+			(uuid "44b87a49-c5d4-41ee-9a8a-6f8ee1e54d09")
+		)
+		(pin "1"
+			(uuid "c3d6f2d9-7ebb-499f-9ea4-0252caab58d7")
+		)
+		(pin "8"
+			(uuid "f6544c71-71ba-4401-855a-d6f9b088841e")
+		)
+		(pin "6"
+			(uuid "46df19a1-1811-4e06-a8dd-5565d56ce4ac")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "R18")
+					(unit 4)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "R17")
+					(unit 4)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "R20")
+					(unit 4)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "R22")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 26.67 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8d16994-1842-48b0-899c-bb1e8f777b10")
+		(property "Reference" "C19"
+			(at 24.38 50.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 28.97 50.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:0805-NO"
+			(at 26.67 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f6672fff-95ac-4372-b46b-cef2d3119076")
+		)
+		(pin "1"
+			(uuid "161ca6ae-0acc-431e-a8f6-d037625c4528")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:VCC")
+		(at 38.1 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd083571-90c0-4f8d-803f-8304ec09a001")
+		(property "Reference" "#P+021"
+			(at 38.1 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 35.56 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90c3be8b-b5f6-469a-88f9-1783539e0c6f")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#P+022")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#P+021")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#P+023")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#P+024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 67.31 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1f87501-5177-4d88-a0fe-d55f9296e56d")
+		(property "Reference" "C23"
+			(at 65.02 53.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 69.61 53.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:0805-NO"
+			(at 67.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9f426594-c8bf-4984-807d-63516c0f6c50")
+		)
+		(pin "1"
+			(uuid "816b89e6-4abc-4e6b-8e05-714cdb855f8c")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:STEMMA_I2C_QT")
+		(at 222.25 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d561226f-8b3c-44f5-9a9b-a508fb249499")
+		(property "Reference" "CONN8"
+			(at 218.44 48.895 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 218.44 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:JST_SH4"
+			(at 222.25 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "2436f79f-0d51-4384-adb1-dbab0438c869")
+		)
+		(pin "3"
+			(uuid "05619c69-a69c-4702-8b17-89e199a6cbef")
+		)
+		(pin "MT1"
+			(uuid "ba9f24b6-e373-4817-9d11-6c61e2186747")
+		)
+		(pin "2"
+			(uuid "9fc64f89-a07f-4b9f-b244-8fc905733ec3")
+		)
+		(pin "1"
+			(uuid "19329ad3-6655-40c7-8232-69b919620783")
+		)
+		(pin "MT2"
+			(uuid "ca000401-a35c-475d-94b3-e3f1c7227ef1")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "CONN9")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "CONN8")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "CONN10")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "CONN11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:3.3V")
+		(at 67.31 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1d9ae52-ca1b-4dda-a652-6b081882c232")
+		(property "Reference" "#U$067"
+			(at 67.31 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 65.786 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9829ba1-197a-4615-aa0e-dadc25443ce1")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$068")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$067")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$069")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:STEMMA_I2C_QT")
+		(at 222.25 39.37 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e709ddb6-58c6-4c80-a445-388e0d216d44")
+		(property "Reference" "CONN8"
+			(at 218.44 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 218.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:JST_SH4"
+			(at 222.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbc96327-9808-4c30-a66f-40e6b4a6019a")
+		)
+		(pin "2"
+			(uuid "9ee73026-fad7-453e-9e04-9a8487cd13e6")
+		)
+		(pin "4"
+			(uuid "76f0fa57-05e3-4c69-966a-a52c234c906d")
+		)
+		(pin "MT1"
+			(uuid "e30a724a-0bd2-4d74-9187-e4969c3b9cd8")
+		)
+		(pin "3"
+			(uuid "74c14cb4-68e2-41df-bc02-ac29bba17163")
+		)
+		(pin "MT2"
+			(uuid "ca07a1e6-8aa2-45a3-bfda-fc7fc9b64f9b")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "CONN9")
+					(unit 3)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "CONN8")
+					(unit 3)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "CONN10")
+					(unit 3)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "CONN11")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:VCC")
+		(at 146.05 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f09c8d75-ce77-4c57-8e66-fdfbefc8ff4e")
+		(property "Reference" "#P+029"
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 143.51 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cef7e6f-7dc8-4991-8da5-1698b7e23f54")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#P+030")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#P+029")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#P+031")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#P+032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:3.3V")
+		(at 181.61 39.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f17a334a-cf9e-4ff8-b11d-a6e275b6be3b")
+		(property "Reference" "#U$0103"
+			(at 181.61 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 183.134 38.354 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fe195fc-be29-4382-95e4-880ab44a9920")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$0104")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$0103")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$0105")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:supply1_371_GND")
+		(at 115.57 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f18f6e9d-e28a-4184-9336-cb4cf61eeae2")
+		(property "Reference" "#GND016"
+			(at 115.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b3e2327-6636-491b-914f-293ed8059728")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#GND017")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#GND016")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#GND018")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#GND019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:MOSFET-N_DUAL")
+		(at 163.83 54.61 90)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6c47254-072e-4ece-8914-b433392a1486")
+		(property "Reference" "Q7"
+			(at 163.195 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 165.1 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit SHT45:SOT363"
+			(at 163.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "b14cc4d6-0910-44d8-8ed2-8dd2e46ab069")
+		)
+		(pin "4"
+			(uuid "54875aa4-75bc-482a-949c-0f14f11a030c")
+		)
+		(pin "1"
+			(uuid "49cb2d89-ce6b-47b9-a4a5-8ddb3d717359")
+		)
+		(pin "2"
+			(uuid "d122b6ec-673c-4d84-bf01-0fc95cfd3154")
+		)
+		(pin "3"
+			(uuid "0f639235-38ae-4b2c-88a1-c41d705290ea")
+		)
+		(pin "5"
+			(uuid "b1d031d9-295a-4ce7-bb9c-9bac1985027e")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "Q8")
+					(unit 2)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "Q7")
+					(unit 2)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "Q9")
+					(unit 2)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "Q11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:3.3V")
+		(at 95.25 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8322dbe-4afa-4216-bf32-5c56dc7fa947")
+		(property "Reference" "#U$088"
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 93.726 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "871a5b77-d4de-4da9-b5a3-ef20482a3dab")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$089")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$088")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$090")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit SHT45-eagle-import:GND")
+		(at 26.67 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffe84658-0cab-4e36-aee7-1c8a5c1bddd7")
+		(property "Reference" "#U$054"
+			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.146 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43b70e6b-543a-402d-94c6-9b001395c460")
+		)
+		(instances
+			(project "Capstone BME470 version 2 with switch"
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/06ab2292-a8c1-43d4-9369-ab3066ecab00"
+					(reference "#U$055")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/0b7c413c-7734-484a-8bab-ec0840278524"
+					(reference "#U$054")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/84828f4d-7e2d-432e-a331-4e9cbbf982ef"
+					(reference "#U$056")
+					(unit 1)
+				)
+				(path "/2fa63c5b-0d8a-4a79-8b48-2992f614746f/9b72f75a-d62a-4f51-8eac-d81c92ebd8a9"
+					(reference "#U$057")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
