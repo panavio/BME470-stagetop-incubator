@@ -4488,6 +4488,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49451978"
+			(at 52.07 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee08946e-4616-4292-a708-9d914c2b4790")
 		)

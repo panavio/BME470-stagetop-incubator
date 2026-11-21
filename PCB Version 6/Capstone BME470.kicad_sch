@@ -6657,6 +6657,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2295"
+			(at 59.69 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79273ed2-7997-4462-88c6-d33f5e93d5ad")
 		)
@@ -6823,6 +6834,17 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C9900290869"
+			(at 162.56 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9066,6 +9088,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C17588427"
+			(at 74.93 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "ea229ecf-a846-4ac0-b3da-ad6a8eea7b92")
 		)
@@ -9391,6 +9424,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 95.25 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17513"
 			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)

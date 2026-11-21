@@ -89,6 +89,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -175,6 +176,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17414"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f6604a2-1440-47da-9da3-38811e96c5a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -322,6 +336,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2876717"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24cba28b-bb76-40c4-babf-3662044251d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -997,6 +1024,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C17513"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e6ee594-22d5-441f-8997-8fa615ab9ad7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3a0f5c9-aaf0-4407-9e07-c980e58a2157")
 		(sheetname "/")
@@ -1143,6 +1183,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "490af50e-71d9-4278-86fd-fc77bf81d399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1543,6 +1596,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "339297d0-d950-44ec-8f52-2c91cfca96c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6ea90a48-7513-4d73-be07-6f022f288b99/04ee3c5f-4941-4e7d-80e4-37836ec5e2b1")
 		(sheetname "/sensors connection_1/")
 		(sheetfile "untitled.kicad_sch")
@@ -1684,6 +1750,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C49451978"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fedead5-4cb2-4ccf-a3c3-552b65457522")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2151,6 +2230,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C154900"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7db00f53-7d22-45b5-9111-821876384a7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/283b1924-21f4-4edd-a173-0fd3b2103ff2/e4bc68b2-13e0-41c5-90ea-5a97d7dc7f45")
 		(sheetname "/sensors connection_3/")
 		(sheetfile "untitled.kicad_sch")
@@ -2438,6 +2530,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C72043"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b95dfd83-9b43-4540-bd14-889ea88ddd3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6ea90a48-7513-4d73-be07-6f022f288b99/0d470ccb-2976-4040-b22f-ffb2edf43226")
 		(sheetname "/sensors connection_1/")
 		(sheetfile "untitled.kicad_sch")
@@ -2721,6 +2826,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66b7d558-42de-407b-8005-99ebba00a80a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3121,6 +3239,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49451978"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6388655-c48c-438a-8890-a60cddab5cc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d4e7a234-f657-4066-85f0-f22f3a5bb3bd/8335893b-5e4c-4481-a522-74cba49ebc2b")
 		(sheetname "/sensors connection_2/")
 		(sheetfile "untitled.kicad_sch")
@@ -3374,6 +3505,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C72043"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e251fe66-f091-4505-a916-f443334e31ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3663,6 +3807,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C25804"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b69e38e-7bdc-4835-90a1-4ea4e8099071")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/283b1924-21f4-4edd-a173-0fd3b2103ff2/5d6f0eb7-19bd-4c82-adeb-5381e4dd4f23")
 		(sheetname "/sensors connection_3/")
 		(sheetfile "untitled.kicad_sch")
@@ -3856,6 +4013,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C154900"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b31c842-13b7-44fe-9212-f7b20217f356")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4374,6 +4544,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a0a12b2-c46c-4358-bfcb-06e8a1909e1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d4e7a234-f657-4066-85f0-f22f3a5bb3bd/04ee3c5f-4941-4e7d-80e4-37836ec5e2b1")
 		(sheetname "/sensors connection_2/")
 		(sheetfile "untitled.kicad_sch")
@@ -4515,6 +4698,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C154900"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19f8fb7e-283f-4541-966f-fbfc90583389")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4799,6 +4995,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C29718"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ad286c4-10c7-4d5b-aced-df2d88e6e06e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5087,6 +5296,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc146d16-79fc-4860-8ace-9734f3ab687c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d4e7a234-f657-4066-85f0-f22f3a5bb3bd/f8f38dd0-9440-4035-8e06-4c2f7265e7fa")
 		(sheetname "/sensors connection_2/")
 		(sheetfile "untitled.kicad_sch")
@@ -5247,6 +5469,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d81dd15c-316a-4542-9169-351b5f88327d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2456"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5d66db0-05a5-4d8f-bfd3-00081f2c73d4")
 			(effects
 				(font
 					(size 1 1)
@@ -5516,6 +5751,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17673"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "158f6d21-5bac-4f36-a2e4-6c639d9d2c50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5828,6 +6076,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5ec129e-d25d-4c60-9348-ab614c2ddaf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d4e7a234-f657-4066-85f0-f22f3a5bb3bd/897bf48e-f8eb-4e07-a9b7-012f697201e0")
 		(sheetname "/sensors connection_2/")
 		(sheetfile "untitled.kicad_sch")
@@ -6018,6 +6279,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17673"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81efe514-f068-4152-a4af-64290f5201be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7494,6 +7768,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C17414"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8794c358-71ac-4e24-b17f-029362fce4d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c56218a7-2514-4928-aeb4-c10dca7bc82b")
 		(sheetname "/")
@@ -7640,6 +7927,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c28379b-6f78-4908-b331-a9219b49982f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7803,7 +8103,7 @@
 				)
 			)
 		)
-		(property "Value" "0.33uF"
+		(property "Value" "330nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "b97daef7-3a82-4f00-ae65-a84fba767140")
@@ -7842,6 +8142,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84a34ab1-099d-4b2a-98e7-0414b0b2e1be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2228302"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6099de7-c774-4986-9a4c-d6e93c0da47f")
 			(effects
 				(font
 					(size 1 1)
@@ -8263,6 +8576,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2295"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24538946-ffd7-4654-9469-a159388d269c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1fd29ab8-e0fc-4927-a69a-c1f7d0518894")
 		(sheetname "/")
@@ -8480,6 +8806,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "90f2f300-2492-4000-b3b6-7493c796b229")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2456"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e598aa39-d0ce-4c95-84ed-3b2a21aa7678")
 			(effects
 				(font
 					(size 1 1)
@@ -8751,6 +9090,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc605c54-5b6e-4991-a4f5-35f67f038af2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9179,6 +9531,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e9cecc4-6460-4e99-a3b0-10f7a6dea38e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6ea90a48-7513-4d73-be07-6f022f288b99/897bf48e-f8eb-4e07-a9b7-012f697201e0")
 		(sheetname "/sensors connection_1/")
 		(sheetfile "untitled.kicad_sch")
@@ -9372,6 +9737,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C72043"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66fbcaea-181c-40e5-8027-ecb1682e08a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9661,6 +10039,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95102c74-e171-4df9-bfcf-c1cf601bac5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/283b1924-21f4-4edd-a173-0fd3b2103ff2/f8f38dd0-9440-4035-8e06-4c2f7265e7fa")
 		(sheetname "/sensors connection_3/")
 		(sheetfile "untitled.kicad_sch")
@@ -9800,6 +10191,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C437481"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edfd1cc9-fb0d-4844-ad3f-b0cbe17435bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9947,6 +10351,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17513"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edabaf66-98b1-440b-8e79-b9ad56872d6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10399,6 +10816,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49451978"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8da5b8d-b7c8-4d80-8b48-cbe1b19046b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ad59932d-7794-4e4b-b7d7-e35b76f30ec1/8335893b-5e4c-4481-a522-74cba49ebc2b")
 		(sheetname "/sensors connection_4/")
 		(sheetfile "untitled.kicad_sch")
@@ -10753,6 +11183,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a02a64a1-2cff-4a32-919a-ea6442d017d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C9900290869"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28e2296f-ee67-4a41-b5a2-e3bc3c00c201")
 			(effects
 				(font
 					(size 1 1)
@@ -20189,6 +20632,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49678"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5be3a2c7-0a62-4906-9baf-a03f06aa2ffd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/308732e4-3975-413f-a37d-6970b51a1854")
 		(sheetname "/")
@@ -20336,6 +20792,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C154900"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a15dfe7-4a5e-4287-8c9e-4c145fc0008c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20620,6 +21089,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d5bc1be-fd38-4113-a3bc-abe905a426be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21128,6 +21610,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c17f7e6-0705-4cb2-9c31-1f0b8d8696f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/283b1924-21f4-4edd-a173-0fd3b2103ff2/04ee3c5f-4941-4e7d-80e4-37836ec5e2b1")
 		(sheetname "/sensors connection_3/")
 		(sheetfile "untitled.kicad_sch")
@@ -21268,6 +21763,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58648509-f05e-469f-bd6f-abd97ed6ca1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21463,6 +21971,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C29718"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac9be47f-d600-4550-a5ec-27c74d135ab8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21751,6 +22272,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86cffe02-65ce-47d0-a6f3-00776f231217")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ad59932d-7794-4e4b-b7d7-e35b76f30ec1/04ee3c5f-4941-4e7d-80e4-37836ec5e2b1")
 		(sheetname "/sensors connection_4/")
 		(sheetfile "untitled.kicad_sch")
@@ -21891,6 +22425,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C29718"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "746c198e-5f50-44bb-aa0e-bfa157e5ddd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22179,6 +22726,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47c79107-3962-47fb-9627-c0e74db64a7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/283b1924-21f4-4edd-a173-0fd3b2103ff2/897bf48e-f8eb-4e07-a9b7-012f697201e0")
 		(sheetname "/sensors connection_3/")
 		(sheetfile "untitled.kicad_sch")
@@ -22372,6 +22932,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C49451978"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c164a424-8801-42f4-98eb-777c1c4fc4c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22627,6 +23200,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C29718"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32f4f4d0-b65f-4ac7-bd56-65889384042e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22914,6 +23500,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C17588427"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c542fb54-c5a6-4cf9-8058-9b51b1e5dc35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/98c1bfec-9428-468a-899a-d6ecb78b5cd2")
 		(sheetname "/")
@@ -23169,6 +23768,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C72043"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11952d62-30dd-474d-bbce-0d33187f50a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23761,7 +24373,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-C (6032-28 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)")
 		(tags "capacitor tantalum")
 		(property "Reference" "C10"
-			(at 4.5 0 0)
+			(at 0.0575 0 0)
 			(layer "F.SilkS")
 			(uuid "9ea3a4ed-0644-4739-9d4c-8ad2e25b3323")
 			(effects
@@ -23801,6 +24413,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1955131"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "406e86c7-869a-4efd-9e78-df23c3705b1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23997,6 +24622,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C49678"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fad61aa9-52bc-4928-b8a4-612b001d0186")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
