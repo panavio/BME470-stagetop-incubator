@@ -6511,7 +6511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.33uF"
+		(property "Value" "330nF"
 			(at 171.45 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6545,6 +6545,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2228302"
 			(at 167.64 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7108,7 +7119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.33uF"
+		(property "Value" "330nF"
 			(at 245.11 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7142,6 +7153,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 241.3 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2228302"
 			(at 241.3 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7302,6 +7324,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 214.63 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C49678"
 			(at 214.63 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7707,6 +7740,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C1955131"
+			(at 64.77 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "831c2a22-6d8b-4c80-b5e7-af6dfc56609e")
 		)
@@ -7779,6 +7823,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 85.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17414"
 			(at 85.09 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8509,6 +8564,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C17673"
+			(at 130.81 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "806fc635-046f-4065-8136-88132e289949")
 		)
@@ -8581,6 +8647,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 139.7 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C49678"
 			(at 139.7 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -9075,6 +9152,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C17513"
+			(at 48.26 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3c7b250a-50b8-43de-bbfd-0b8abd5c4e5d")
 		)
@@ -9395,6 +9483,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C17673"
+			(at 142.24 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "806fc635-046f-4065-8136-88132e28994a")
 		)
@@ -9490,6 +9589,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 187.96 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2456"
+			(at 187.96 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10103,6 +10213,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2456"
+			(at 68.58 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97180af0-f7dc-4434-ac64-812964d1ce24")
 		)
@@ -10333,6 +10454,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 143.51 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17414"
+			(at 143.51 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10582,6 +10714,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C437481"
+			(at 111.76 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "831c2a22-6d8b-4c80-b5e7-af6dfc5660a0")
 		)
@@ -10654,6 +10797,17 @@
 			)
 		)
 		(property "Description" "Low voltage 8-channel I2C switch with reset, VQFN-24"
+			(at 160.02 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2876717"
 			(at 160.02 151.13 0)
 			(hide yes)
 			(show_name no)

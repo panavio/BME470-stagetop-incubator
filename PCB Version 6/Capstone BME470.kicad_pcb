@@ -5633,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Value" "0.33uF"
+		(property "Value" "330nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "2c4d12bb-b56e-4261-b894-730254831f74")
@@ -5663,6 +5663,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2228302"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9829837-e283-4a3d-be19-3b152dbb50f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7820,6 +7833,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" "C2228302"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84a34ab1-099d-4b2a-98e7-0414b0b2e1be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
