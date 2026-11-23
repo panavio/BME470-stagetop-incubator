@@ -3546,7 +3546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit SHT45:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 69.85 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3640,7 +3640,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "BSS138DW-7-F"
 			(at 167.64 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4488,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C49451978"
+		(property "LCSC Part #" "C156285"
 			(at 52.07 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4671,7 +4671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
 			(at 238.76 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4694,6 +4694,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 238.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C20089142"
 			(at 238.76 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5275,7 +5286,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "BSS138DW-7-F"
 			(at 157.48 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5490,7 +5501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit SHT45:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 29.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5525,6 +5536,17 @@
 		)
 		(property "LCSC Part #" "C15850"
 			(at 29.21 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 29.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

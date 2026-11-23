@@ -534,6 +534,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -4794,6 +4971,12 @@
 		(uuid "42aff6cd-379a-4e47-9218-66be6cff631a")
 	)
 	(junction
+		(at 60.96 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4462077f-d409-4e7e-a3c5-9657d30ff837")
+	)
+	(junction
 		(at 85.09 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4864,12 +5047,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0fb2000-09fa-45e8-9ac2-219f7d74b457")
-	)
-	(junction
-		(at 64.77 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1ef3f3e-8bac-4918-b529-b04fcbaa27d0")
 	)
 	(junction
 		(at 139.7 24.13)
@@ -5271,16 +5448,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 24.13) (xy 69.85 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "553715ad-95e7-426d-bc39-91a4e8b24707")
-	)
-	(wire
-		(pts
 			(xy 142.24 133.35) (xy 149.86 133.35)
 		)
 		(stroke
@@ -5351,7 +5518,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 24.13) (xy 64.77 24.13)
+			(xy 49.53 24.13) (xy 60.96 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5421,7 +5588,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 31.75) (xy 69.85 31.75)
+			(xy 60.96 31.75) (xy 69.85 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5478,6 +5645,16 @@
 			(type default)
 		)
 		(uuid "94b34c3a-560b-46ad-adfe-792f643328d9")
+	)
+	(wire
+		(pts
+			(xy 60.96 24.13) (xy 69.85 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1c8afc-7719-431e-b73e-e13f2f931275")
 	)
 	(wire
 		(pts
@@ -6470,6 +6647,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C310413"
+			(at 154.94 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7b799e48-fe4c-4a4b-8983-3bc220660d32")
 		)
@@ -6991,7 +7179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 256.54 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -7014,6 +7202,17 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 256.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "DNP"
 			(at 256.54 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7696,8 +7895,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 64.77 27.94 0)
+		(lib_id "Device:C_Polarized")
+		(at 60.96 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7708,7 +7907,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a4a4ded-ad0f-4089-acd4-c3fa0dc31eb2")
 		(property "Reference" "C10"
-			(at 68.58 26.6699 0)
+			(at 64.77 25.7809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7719,7 +7918,7 @@
 			)
 		)
 		(property "Value" "33uF"
-			(at 68.58 29.2099 0)
+			(at 64.77 28.3209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7730,7 +7929,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_HandSolder"
-			(at 65.7352 31.75 0)
+			(at 61.9252 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7741,7 +7940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 27.94 0)
+			(at 60.96 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7751,8 +7950,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 64.77 27.94 0)
+		(property "Description" "TPSC476K010R0200"
+			(at 60.96 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,8 +7961,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C1955131"
-			(at 64.77 27.94 0)
+		(property "LCSC Part #" "C1958890"
+			(at 60.96 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7993,7 +8192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
 			(at 60.96 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8016,6 +8215,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C20089142"
 			(at 60.96 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8494,6 +8704,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 107.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "DNP"
 			(at 107.95 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9953,6 +10174,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC Part #" "C3096093 "
+			(at 271.78 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e5db4183-60fb-49c5-ba81-3d35c457fb31")
 		)
@@ -10072,7 +10304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF5305PBF"
+		(property "Value" "IRF5305S"
 			(at 107.95 71.1201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10138,7 +10370,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2623"
+		(property "LCSC Part" "C41224"
 			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10417,6 +10649,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "DNP"
 			(at 57.15 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11091,6 +11334,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C55337847"
+			(at 229.87 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c3279372-3250-4354-a5cc-04622e8d15fe")
 		)
@@ -11349,6 +11603,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC Part #" "C140319"
+			(at 87.63 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
