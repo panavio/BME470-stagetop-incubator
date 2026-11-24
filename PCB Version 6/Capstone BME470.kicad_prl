@@ -25,7 +25,7 @@
       "otherItems": true,
       "pads": true,
       "text": true,
-      "tracks": false,
+      "tracks": true,
       "vias": true,
       "zones": true
     },
