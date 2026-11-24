@@ -5534,7 +5534,7 @@
 				)
 			)
 		)
-		(path "/283b1924-21f4-4edd-a173-0fd3b2103ff2/b7959a62-eb3a-4558-a30b-86e17fa48a8e")
+		(path "/283b1924-21f4-4edd-a173-0fd3b2103ff2/cac51afb-caff-47bd-a3c2-8fda84719d23")
 		(sheetname "/sensors connection_3/")
 		(sheetfile "untitled.kicad_sch")
 		(units
@@ -23282,7 +23282,7 @@
 				)
 			)
 		)
-		(path "/6ea90a48-7513-4d73-be07-6f022f288b99/b7959a62-eb3a-4558-a30b-86e17fa48a8e")
+		(path "/6ea90a48-7513-4d73-be07-6f022f288b99/cac51afb-caff-47bd-a3c2-8fda84719d23")
 		(sheetname "/sensors connection_1/")
 		(sheetfile "untitled.kicad_sch")
 		(units
@@ -23740,7 +23740,7 @@
 				)
 			)
 		)
-		(path "/ad59932d-7794-4e4b-b7d7-e35b76f30ec1/b7959a62-eb3a-4558-a30b-86e17fa48a8e")
+		(path "/ad59932d-7794-4e4b-b7d7-e35b76f30ec1/cac51afb-caff-47bd-a3c2-8fda84719d23")
 		(sheetname "/sensors connection_4/")
 		(sheetfile "untitled.kicad_sch")
 		(units
@@ -24516,7 +24516,7 @@
 				)
 			)
 		)
-		(path "/d4e7a234-f657-4066-85f0-f22f3a5bb3bd/b7959a62-eb3a-4558-a30b-86e17fa48a8e")
+		(path "/d4e7a234-f657-4066-85f0-f22f3a5bb3bd/cac51afb-caff-47bd-a3c2-8fda84719d23")
 		(sheetname "/sensors connection_2/")
 		(sheetfile "untitled.kicad_sch")
 		(units
@@ -24801,7 +24801,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17588427"
+		(property "LCSC Part #" "C5353"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
